@@ -1,0 +1,41 @@
+{
+  "name": "flow-webpack-next-plugin",
+  "version": "0.1.0-alpha",
+  "description": "Webpack Flow plugin",
+  "main": "./lib/index.js",
+  "files": [
+    "/lib"
+  ],
+  "scripts": {
+    "start": "babel lib -d dist",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cironunes/flow-webpack-next-plugin.git"
+  },
+  "keywords": [
+    "Flow",
+    "Webpack"
+  ],
+  "author": "Ciro Nunes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cironunes/flow-webpack-next-plugin/issues"
+  },
+  "homepage": "https://github.com/cironunes/flow-webpack-next-plugin#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/runtime": "^7.3.4",
+    "flow-bin": "^0.95.1",
+    "jest": "^24.5.0"
+  }
+}
