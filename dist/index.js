@@ -181,4 +181,3 @@ class FlowWebpackPlugin {
 }
 
 exports.FlowWebpackPlugin = FlowWebpackPlugin;
-module.exports = FlowWebpackPlugin;
