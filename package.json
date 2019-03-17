@@ -2,9 +2,10 @@
   "name": "flow-webpack-next-plugin",
   "version": "0.1.0-rc",
   "description": "Webpack Flow plugin",
-  "main": "./lib/index.js",
+  "main": "./dist/index.js",
   "files": [
-    "/lib"
+    "/lib",
+    "/dist"
   ],
   "scripts": {
     "start": "babel lib -d dist",
