@@ -1,6 +1,6 @@
 {
   "name": "flow-webpack-next-plugin",
-  "version": "0.1.0-alpha",
+  "version": "0.1.0-rc",
   "description": "Webpack Flow plugin",
   "main": "./lib/index.js",
   "files": [
